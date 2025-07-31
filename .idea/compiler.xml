@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="fabric-framework" />
+        <module name="fabric-common" />
+        <module name="fabric-quartz" />
+        <module name="fabric-generator" />
+        <module name="fabric-system" />
+        <module name="fabric-admin" />
+        <module name="fabric-gateway" />
+        <module name="fabric-traces" />
+      </profile>
+    </annotationProcessing>
+  </component>
+</project>

@@ -1,0 +1,12 @@
+spring:
+  application:
+    name: fabric-admin
+  profiles:
+    active: dev,druid
+  cloud:
+    nacos:
+      discovery:
+        server-addr: 192.168.81.128:8848 #单机
+        namespace: public               #4aaf8131-9493-4402-b555-18ee652103bd
+      enabled: true
+

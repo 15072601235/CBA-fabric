@@ -1,0 +1,14 @@
+server:
+  port: 8080
+spring:
+  application:
+    name: fabric-gateway
+
+  profiles:
+    active: dev
+  cloud:
+    nacos:
+      discovery:
+        server-addr:  39.98.216.77:8868 #单机
+        namespace: 4aaf8131-9493-4402-b555-18ee652103bd
+

@@ -1,0 +1,13 @@
+com\fabric\generator\service\GenTableServiceImpl.class
+com\fabric\generator\util\GenUtils.class
+com\fabric\generator\controller\GenController.class
+com\fabric\generator\service\IGenTableColumnService.class
+com\fabric\generator\service\GenTableColumnServiceImpl.class
+com\fabric\generator\config\GenConfig.class
+com\fabric\generator\service\IGenTableService.class
+com\fabric\generator\mapper\GenTableColumnMapper.class
+com\fabric\generator\domain\GenTable.class
+com\fabric\generator\util\VelocityInitializer.class
+com\fabric\generator\mapper\GenTableMapper.class
+com\fabric\generator\domain\GenTableColumn.class
+com\fabric\generator\util\VelocityUtils.class
