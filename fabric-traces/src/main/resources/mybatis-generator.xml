@@ -8,7 +8,7 @@
         <jdbcConnection driverClass="com.mysql.jdbc.Driver"
                         connectionURL="jdbc:mysql://192.168.1.107:3306/blockchain"
                         userId="root"
-                        password="1234">
+                        password="hscizyq">
         </jdbcConnection>
 
         <javaTypeResolver >
