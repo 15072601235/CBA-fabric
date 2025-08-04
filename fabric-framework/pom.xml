@@ -33,6 +33,7 @@
         <dependency>
             <groupId>com.alibaba</groupId>
             <artifactId>druid</artifactId>
+            <version>1.2.18</version> <!-- 使用稳定版本 -->
             <exclusions>
                  <exclusion>
                      <groupId>com.alibaba</groupId>
