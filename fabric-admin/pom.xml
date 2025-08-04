@@ -32,9 +32,8 @@
                      <artifactId>tools</artifactId>
                  </exclusion>
              </exclusions>
-</dependency>
+         </dependency>
 
-        </dependency>
 
         <!-- swagger2-->
         <dependency>
