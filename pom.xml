@@ -260,14 +260,6 @@
                     <source>${java.version}</source>
                     <target>${java.version}</target>
                     <encoding>${project.build.sourceEncoding}</encoding>
-		    <mainClass>com.example.FabricAdminApplication</mainClass>
-		    <!-- 强制生成报告 -->
-                    <disableXmlReport>false</disableXmlReport>
-                    <reportsDirectory>${project.build.directory}/surefire-reports</reportsDirectory>
-                    <!-- 包含所有测试类 -->
-                    <includes>
-                    	<include>**/*Test.java</include>
-                    </includes>
                 </configuration>
             </plugin>
         </plugins>
