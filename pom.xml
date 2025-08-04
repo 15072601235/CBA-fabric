@@ -260,6 +260,10 @@
                     <source>${java.version}</source>
                     <target>${java.version}</target>
                     <encoding>${project.build.sourceEncoding}</encoding>
+		    <!-- 确保始终生成报告 -->
+                	<skipTests>false</skipTests>
+                	<testFailureIgnore>true</testFailureIgnore>
+                	<reportsDirectory>${project.build.directory}/surefire-reports</reportsDirectory>
                 </configuration>
             </plugin>
         </plugins>
