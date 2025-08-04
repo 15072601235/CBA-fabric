@@ -22,16 +22,6 @@
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-devtools</artifactId>
             <version>1.2.18</version> <!-- 使用稳定版本 -->
-            <exclusions>
-                 <exclusion>
-                     <groupId>com.alibaba</groupId>
-                     <artifactId>jconsole</artifactId>
-                 </exclusion>
-                 <exclusion>
-                     <groupId>com.alibaba</groupId>
-                     <artifactId>tools</artifactId>
-                 </exclusion>
-             </exclusions>
             <optional>true</optional> <!-- 表示依赖不会传递 -->
         </dependency>
 
