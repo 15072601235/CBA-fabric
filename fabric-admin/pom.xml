@@ -21,7 +21,7 @@
         <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-devtools</artifactId>
-            <version>${spring-boot.version}</version> <!-- 使用与Spring Boot一致的版本 -->
+            <version>2.7.0</version> <!-- 使用与Spring Boot一致的版本 -->
             <optional>true</optional> <!-- 表示依赖不会传递 -->
          </dependency>
 
@@ -110,7 +110,7 @@
             <plugin>
                 <groupId>org.springframework.boot</groupId>
                 <artifactId>spring-boot-maven-plugin</artifactId>
-                <version>${spring-boot.version}</version> <!-- 使用与Spring Boot一致的版本 -->
+                <version>2.7.0</version> <!-- 使用与Spring Boot一致的版本 -->
                 <configuration>
                     <fork>true</fork> <!-- 如果没有该配置，devtools不会生效 -->
                 </configuration>
